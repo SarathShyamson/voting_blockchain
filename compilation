@@ -1,0 +1,4 @@
+In the node console
+> code = fs.readFileSync('Voting.sol').toString()
+> solc = require('solc')
+> compiledCode = solc.compile(code)
